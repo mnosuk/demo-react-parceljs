@@ -1,0 +1,27 @@
+{
+  "name": "demo-react-parceljs",
+  "version": "1.0.0",
+  "description": "to demonstrate how to setup parceljs bundler with reactJS",
+  "main": "index.js",
+  "author": "Mnosuk (Founder: Bello Technologies)",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel -p 3000 public/index.html",
+    "build": "parcel build public/index.html -d build --public-url ./"
+  },
+  "dependencies": {
+    "babel-eslint": "^8.2.5",
+    "babel-preset-react-app": "^3.1.2",
+    "node-sass": "^4.9.0",
+    "parcel-bundler": "^1.9.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.10.0"
+  }
+}
