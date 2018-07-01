@@ -4,9 +4,13 @@
 
 #### setup
 using once of these two command line to load package.
-> yarn
-
-> npm install
+```
+yarn
+```
+Or
+```
+npm install
+```
 
 That's all.
 
